@@ -5,6 +5,7 @@ import Contact from "./components/Contact.vue";
 import Blog from "./components/Blog.vue";
 import BlogContent from "./components/blog/BlogContent.vue";
 import BlogSingle from "./components/blog/BlogSingle.vue";
+import BlogDetails from "./components/blog/BlogDetails.vue";
 
 const routes = [
     {
@@ -46,6 +47,11 @@ const routes = [
                 path: "single",
                 name: "BlogSingle",
                 component: BlogSingle,
+            },
+            {
+                path: ":blog_id",
+                name: "BlogDetails",
+                component: BlogDetails,
             }
         ]
     }

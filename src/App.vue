@@ -9,7 +9,7 @@
   <router-view />
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 .logo {
   height: 6em;
   padding: 1.5em;
